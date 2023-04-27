@@ -6,3 +6,4 @@ const dateString = date.toLocaleDateString('fa');
 const timeString = date.toLocaleTimeString('fa');
 
 ```
+***
