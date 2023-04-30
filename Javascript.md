@@ -30,3 +30,43 @@ npm i json-server
 npm run serve-json
 ```
 ***
+
+### Store Key/Value in Map
+
+```js
+const data = new Map();
+// set new data
+data.set("a",1)
+data.set("b",1)
+// get new data
+data.get("a") // 1
+data.get("c") // undefined
+// check existing data
+data.has("a") // true
+// delete data
+data.delete("a") // if existing --> true
+// check size
+data.size()
+// clear data
+data.clear()
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
