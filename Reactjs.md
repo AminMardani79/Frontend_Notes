@@ -150,3 +150,9 @@ HttpService.interceptors.response.use(
 export default HttpService;
 
 ```
+
+#### Generic react component in typescript
+[Generic Component](https://medium.com/edonec/creating-a-generic-component-with-react-typescript-2c17f8c4386e#:~:text=Definition,and%20use%20their%20own%20types.)
+
+
+
