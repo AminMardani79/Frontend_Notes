@@ -1,4 +1,7 @@
-
+#### Design Pattern Notes
+[Pattern.dev](https://www.patterns.dev/)
+***
+[Medium_ReactPattern](https://medium.com/javascript-in-plain-english/5-react-design-patterns-you-should-know-629030e2e2c7)
 #### Authentication with xAuthToken
 
 ```js
