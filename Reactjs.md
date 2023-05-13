@@ -2,8 +2,9 @@
 [Pattern.dev](https://www.patterns.dev/)
 ***
 [Medium_ReactPattern](https://medium.com/javascript-in-plain-english/5-react-design-patterns-you-should-know-629030e2e2c7)
+***
+[Design Pattern](https://medium.com/@obrm770/best-practices-and-design-patterns-in-react-js-for-high-quality-applications-6b203be747fb)
 #### Authentication with xAuthToken
-
 ```js
 import axios from "axios";
 import { message } from "antd";
