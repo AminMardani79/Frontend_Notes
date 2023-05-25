@@ -4,6 +4,24 @@
 [Medium_ReactPattern](https://medium.com/javascript-in-plain-english/5-react-design-patterns-you-should-know-629030e2e2c7)
 ***
 [Design Pattern](https://medium.com/@obrm770/best-practices-and-design-patterns-in-react-js-for-high-quality-applications-6b203be747fb)
+
+#### Debounce Input Search
+##### Use debounce library or create custom hook :
+```js
+export function useDebounce<T>(value: T, delay?: number): T {
+  const [debouncedValue, setDebouncedValue] = useState<T>(value);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setDebouncedValue(value), delay || 500);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [value, delay]);
+
+  return debouncedValue;
+}
+```
 #### Authentication with xAuthToken
 ```js
 import axios from "axios";
