@@ -30,6 +30,27 @@ npm install --save-dev source-map-explorer
   "analyze": "source-map-explorer 'build/static/js/*.js'",
 }
 ```
+#### Enable Tree Shaking
+##### Enables the removal of unused code during compilation
+```js
+module.exports = {
+  mode: "production",
+  output: {
+    filename: "[name].bundle.js",
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        loader: "babel-loader",
+      },
+    ],
+  },
+  optimization: {
+    usedExports: true, // Enable tree shaking
+  },
+};
+```
 #### Authentication with xAuthToken
 ```js
 import axios from "axios";
