@@ -22,6 +22,14 @@ export function useDebounce<T>(value: T, delay?: number): T {
   return debouncedValue;
 }
 ```
+
+#### Analyze Bundle file
+```js
+npm install --save-dev source-map-explorer
+"scripts": {
+  "analyze": "source-map-explorer 'build/static/js/*.js'",
+}
+```
 #### Authentication with xAuthToken
 ```js
 import axios from "axios";
