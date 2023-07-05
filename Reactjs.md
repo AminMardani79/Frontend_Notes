@@ -32,6 +32,10 @@ npm install --save-dev source-map-explorer
 ```
 #### Enable Tree Shaking
 ##### Enables the removal of unused code during compilation
+#### Use Alova instead of axios in some cases
+##### * Less bundle file size
+##### * Managing api states
+##### * Caching data
 ```js
 module.exports = {
   mode: "production",
